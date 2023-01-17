@@ -47,6 +47,7 @@ public class EmployeeController extends HttpServlet
 
 		try 
 		{
+			//find the right action
 			switch (action) 
 			{
 				case "/list":
